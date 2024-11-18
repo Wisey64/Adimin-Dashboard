@@ -31,8 +31,11 @@
 }
 .top{
     grid-area: 1/2/2/3;
-    text-align: center;
+    
     border: 3px solid black;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-color: rgba(250, 235, 215, 0.582);
     
 }
 .main{
@@ -64,8 +67,8 @@
     justify-items: flex-start;
 }
 img{
-    width: 2.25rem;
-    height: 1.75rem;
+    width: 2.20rem;
+    height: 1.70rem;
     cursor: pointer;
     
 }
@@ -100,4 +103,40 @@ img{
 a{
     text-decoration: none;
     color:rgb(49, 54, 46) ;
+}
+.topbar{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.5fr 0.5fr 1.25fr ;
+    justify-items: center;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+.magnify {
+    
+    width:2.3rem ;
+    height:1.8rem ;
+    justify-self: flex-end;
+    margin-right: 10px;
+    
+}
+.bell{
+    width:2.5rem ;
+    height:1.6rem ;
+}
+.srbar{
+    width: 950px;
+    height:2rem ;
+    border: 0.5px rgba(0, 0, 0, 0.089) solid ;
+    border-radius: 20px;
+    background-color: rgba(82, 180, 148, 0.452);
+    justify-self: flex-start;
+    
+}
+.naruto{
+    width:4rem ;
+    height: 4rem;
+    border:2px rgba(0, 0, 0, 0.089) solid  ;
+    border-radius: 50px;
+    background-color: rgb(232, 248, 0);
 }
