@@ -36,6 +36,7 @@
     display: grid;
     grid-template-rows: 1fr 2fr;
     background-color: rgba(250, 235, 215, 0.76);
+    height: 180px;
     
 }
 .main{
@@ -108,7 +109,7 @@ img{
 }
 a{
     text-decoration: none;
-    color: rgba(51, 58, 46, 0.884);
+    color: rgba(51, 58, 46, 0.959);
 }
 .topbar{
     display: grid;
@@ -152,5 +153,43 @@ a{
     justify-self: flex-start;
     margin-left: 15px;
     font-size: 1.2rem;
-    color: rgba(51, 58, 46, 0.884);
+    color: rgba(51, 58, 46, 0.959);
+}
+.bottombar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.user{
+    display:grid ;
+    grid-template-columns: 0.25fr 2fr;
+    grid-template-rows: 0.25fr;
+    
+}
+.napic{
+    width: 5.8rem;
+    height: 5.8rem;
+    border:2px rgba(0, 0, 0, 0.089) solid  ;
+    border-radius: 50px;
+    background-color: rgb(232, 248, 0);
+    grid-area:1/1/2/2 ;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    
+    
+    justify-self: center;
+}
+.username{
+    grid-area: 1/2/2/2;
+    align-self:center;
+    margin-top: 20px;
+    color: rgba(51, 58, 46, 0.959);
+    
+}
+.hi{
+    grid-area:1/2/2/2 ;
+    align-self: center;
+    margin-bottom: 50px;
+    color: rgba(51, 58, 46, 0.959);
 }
