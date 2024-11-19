@@ -40,6 +40,8 @@
     
 }
 .main{
+    display: grid;
+    grid-column: 2fr 1fr;
     grid-area: 2/2/3/3;
     text-align: center;
     border: 3px solid black;
@@ -208,7 +210,7 @@ a{
     border-radius: 50px;
     width: 6.3rem;
     height: 2.9rem;
-    background-color: rgba(5, 90, 218, 0.925);
+    background-color: rgba(82, 180, 148, 0.452);
     color: white;
     margin-bottom:25px ;
     font-size: 1rem;
@@ -217,3 +219,8 @@ a{
 .New{
     justify-self: flex-end;
 }
+.projects{
+    width: 1fr;
+    height: 1fr;
+}
+
