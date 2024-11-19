@@ -32,7 +32,7 @@
 .top{
     grid-area: 1/2/2/3;
     
-    border: 3px solid black;
+    
     display: grid;
     grid-template-rows: 1fr 2fr;
     background-color: rgba(250, 235, 215, 0.76);
@@ -42,9 +42,10 @@
 .main{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    
     grid-area: 2/2/3/3;
     text-align: center;
-    border: 3px solid black;
+    
     background-color: rgba(229, 210, 185, 0.918);
     gap: 20px;
 }
@@ -188,6 +189,7 @@ a{
     align-self:center;
     margin-top: 20px;
     color: rgba(51, 58, 46, 0.959);
+    text-wrap: nowrap;
     
 }
 .hi{
@@ -255,6 +257,44 @@ a{
 }
 .threeicons{
     justify-self: end;
+}
+.sidecards{
+    display: grid;
+    grid-template-rows: 0.17fr 0.8fr 0.1fr 0.4fr;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+
+    
+}
+.anno{
+    justify-self: flex-start;
+    align-self: flex-end;
+    
+}
+.announcements{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    background-color: rgba(0, 255, 255, 0.404);
+    border-radius: 10px;
+    
+    
+}
+.announcements div{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    
+    
+    
+   
+    
+}
+.ann h3{
+
+    justify-self: flex-start;
+    align-self: flex-start;
+    
 }
 
 
