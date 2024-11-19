@@ -237,7 +237,8 @@ a{
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
     border-left: rgba(255, 255, 0, 0.548) solid 10px;
-    background-color: rgba(0, 255, 255, 0.404);
+    background-color: rgba(6, 207, 207, 0.315);
+    
     box-shadow: 10px black;
     border-radius: 10px;
     justify-items: flex-start;
@@ -254,6 +255,7 @@ a{
     grid-area: 1/1/2/3;
     justify-self: flex-start;
     align-self: flex-end;
+    color: rgba(51, 58, 46, 0.959);
 }
 .threeicons{
     justify-self: end;
@@ -277,7 +279,8 @@ a{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 15px;
-    background-color: rgba(0, 255, 255, 0.404);
+    background-color: rgba(6, 207, 207, 0.315);
+    
     border-radius: 10px;
     gap: 10px;
     
@@ -314,7 +317,7 @@ a{
     display: grid;
     grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
     padding: 10px;
-    background-color: rgba(0, 255, 255, 0.404);
+    background-color: rgba(6, 207, 207, 0.315);
     border-radius: 10px;
     gap: 10px;
     
@@ -341,7 +344,8 @@ a{
 }
 .huser{
     grid-area: 1/1/2/2;
-    justify-self: flex-start
+    justify-self: flex-start;
+    color: rgba(51, 58, 46, 0.959);
 
 }
 .desc{
@@ -351,4 +355,10 @@ a{
 }
 p{
     color: rgba(0, 0, 0, 0.664);
+}
+h2{
+    color: rgba(51, 58, 46, 0.959);
+}
+h3{
+    color: rgba(51, 58, 46, 0.959);
 }
