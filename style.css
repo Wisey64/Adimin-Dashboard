@@ -193,3 +193,27 @@ a{
     margin-bottom: 50px;
     color: rgba(51, 58, 46, 0.959);
 }
+.btndiv{
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    
+    align-content: flex-end;
+    column-gap: 50px;
+    margin-left: 270px;
+}
+.btn{
+    
+    border:none ;
+    border-radius: 50px;
+    width: 6.3rem;
+    height: 2.9rem;
+    background-color: rgba(5, 90, 218, 0.925);
+    color: white;
+    margin-bottom:25px ;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.New{
+    justify-self: flex-end;
+}
