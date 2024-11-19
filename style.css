@@ -41,11 +41,12 @@
 }
 .main{
     display: grid;
-    grid-column: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-area: 2/2/3/3;
     text-align: center;
     border: 3px solid black;
     background-color: rgba(229, 210, 185, 0.918);
+    gap: 20px;
 }
 .group1{
     display: grid;
@@ -220,7 +221,41 @@ a{
     justify-self: flex-end;
 }
 .projects{
-    width: 1fr;
-    height: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr  ;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    
+    
 }
+.cards{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    border-left: rgba(255, 255, 0, 0.548) solid 10px;
+    background-color: rgba(0, 255, 255, 0.404);
+    box-shadow: 10px black;
+    border-radius: 10px;
+    justify-items: flex-start;
+    align-content:center ;
+    padding: 20px;
+    padding-top: 20px;
+    
+    
+    
+    
+    
+}
+.mainheader{
+    grid-area: 1/1/2/3;
+    justify-self: flex-start;
+    align-self: flex-end;
+}
+.threeicons{
+    justify-self: end;
+}
+
+
 
